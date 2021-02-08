@@ -44,5 +44,6 @@ export async function getStaticProps(context) {
     props: {
       people: dummyPeople,
     },
+    revalidate: 1,
   };
 }
